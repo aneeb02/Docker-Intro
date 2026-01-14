@@ -6,6 +6,9 @@ __pycache__/
 # C extensions
 *.so
 
+*.parquet
+
+
 # Distribution / packaging
 .Python
 build/
@@ -26,6 +29,8 @@ share/python-wheels/
 *.egg
 MANIFEST
 
+/ny_taxi_postgres_data
+/pipeline/ny_taxi_postgres_data
 # PyInstaller
 #  Usually these files are written by a python script from a template
 #  before PyInstaller builds the exe, so as to inject date/other infos into it.
